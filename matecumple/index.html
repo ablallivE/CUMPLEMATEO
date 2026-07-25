@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Driver Invitation</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+
+<script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<div id="startLights">
+
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+    <div class="light"></div>
+
+</div>
+
+<h2>LA 3032</h2>
+
+<div class="loading-bar">
+
+<div class="loading"></div>
+
+</div>
+
+<p id="loadingText">Accediendo a la Base de Datos...</p>
+
+</div>
+
+<section id="hero">
+    <div class="hero-background">
+
+<img
+class="car"
+src="assets/img/alpine.png"
+alt="Alpine">
+
+<img
+class="shield"
+src="assets/img/allboys.png"
+alt="All Boys">
+
+</div>
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h3>LA 3032</h3>
+
+<h1>MATEO</h1>
+
+<h2>Convocatoria Oficial</h2>
+
+<p>Edad: 19 años</p>
+
+<p class="quote">
+Has sido seleccionado para asistir a un evento único.
+<br><br>
+La presencia del invitado es altamente recomendada.
+</p>
+
+<button id="continue">
+VER CONVOCATORIA
+</button>
+
+</div>
+
+</section>
+<section id="countdown">
+
+<h2>FALTAN</h2>
+
+<div class="timer">
+
+<div>
+<span id="days">00</span>
+<p>Días</p>
+</div>
+
+<div>
+<span id="hours">00</span>
+<p>Horas</p>
+</div>
+
+<div>
+<span id="minutes">00</span>
+<p>Minutos</p>
+</div>
+
+<div>
+<span id="seconds">00</span>
+<p>Segundos</p>
+</div>
+
+</div>
+
+</section>
+
+<div id="particles"></div>
+
+<section id="invite">
+
+<h1>🎉 CONVOCATORIA OFICIAL 🎉</h1>
+
+<h2>MATEO</h2>
+
+<div class="card">
+
+<h3>CUMPLEAÑOS N°19</h3>
+
+<br>
+
+<p>📅 27 de Julio</p>
+
+<p>🕑 14:00 hs</p>
+
+<p>📍 Mercedes 1951</p>
+
+<br>
+
+<p>
+Has sido invitado oficialmente a formar parte de esta misión.
+</p>
+
+<p>
+Tu presencia es obligatoria PORQUE YA RESERVAMOS!!!!.
+</p>
+
+</div>
+
+<div class="buttons">
+
+<a target="_blank"
+href="https://maps.google.com/?q=Mercedes+1951">
+
+📍 Cómo llegar
+
+</a>
+
+<button id="confirmButton">
+📲 Confirmar asistencia
+</button>
+<p id="confirmMessage"></p>
+
+</div>
+
+
+</section>
+
+
+
+<audio
+id="engine"
+src="assets/audio/musica.mp3">
+</audio>
+
+
+
+<canvas id="confetti"></canvas>
+
+
+
+</body>
+
+</html>
