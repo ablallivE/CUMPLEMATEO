@@ -82,7 +82,7 @@ btn.addEventListener("click", () => {
 
 // ---------------- CUENTA REGRESIVA ----------------
 
-const birthday = new Date("July 25, 2026 20:20:00").getTime();
+const birthday = new Date("July 25, 2026 20:38:00").getTime();
 
 const counter = setInterval(() => {
 
